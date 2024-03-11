@@ -1,8 +1,61 @@
-@media screen and (max-width: 1200px){
-    #desktop-nav{
-        display: none;
+@media screen and (max-width: 1400px) {
+    #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
     }
-    #hamburger-nav {
-        display: flex;
+  }
+  
+  @media screen and (max-width: 1200px) {
+  
+    #profile {
+      display: block;
     }
-}
+    .arrow {
+      display: none;
+    }
+    section {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .section__pic-container {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 2rem;
+    }
+  
+  }
+  
+  @media screen and (max-width: 600px) {
+ 
+    #profile {
+      height: 83vh;
+      margin-bottom: 0;
+    }
+
+    .btn-container {
+      flex-wrap: wrap;
+    }
+   
+    .nav-links li a {
+      font-size: 1rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .section__text__p2 {
+      font-size: 1.25rem;
+    }
+    .title {
+      font-size: 2rem;
+    }
+   
+
+  }
+  
