@@ -2,7 +2,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  user-select: none;
+  /* user-select: none; */
 }
 html{
   scroll-behavior: smooth;
@@ -143,9 +143,16 @@ a {
   text-decoration-color: white;
 }
 
-a:hover {
+li a:hover {
   color: grey;
   text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
 }
@@ -377,10 +384,7 @@ form input, form textarea{
   color: black;
 }
 
-.project-btn {
-  color: black;
-  border-color: rgb(163, 163, 163);
-}
+
 
 .experience-details-container {
   display: flex;
@@ -425,3 +429,6 @@ form input, form textarea{
   font-size: 1.75rem;
   margin-bottom: 2rem;
 }
+
+
+
