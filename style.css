@@ -135,7 +135,13 @@ section {
   border: rgb(255, 255, 255) 0.1rem solid;
 }
 
-
+p a {
+  color: rgb(85, 85, 85);
+  text-decoration: none;
+}
+div p a:hover{
+  color: rgb(85, 85, 85);
+}
 
 a {
   color: black;
@@ -156,6 +162,7 @@ a:hover {
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
 }
+
 
 
 /* About */
